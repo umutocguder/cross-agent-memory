@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Created by 11Hopem -->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.11hopem.cross-agent-memory</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/umut/mycodespaces/cross-agent-memory/daemon/service.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartInterval</key>
+    <integer>3600</integer>
+    <key>StandardOutPath</key>
+    <string>/Users/umut/.cache/deja/daemon_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/umut/.cache/deja/daemon_stderr.log</string>
+</dict>
+</plist>

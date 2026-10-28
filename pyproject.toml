@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cross-agent-memory"
+version = "1.0.0"
+description = "Autonomous unified memory hub and synchronization daemon for AI coding agents"
+readme = "README.md"
+authors = [
+    { name = "11Hopem", email = "umutocgdr@gmail.com" }
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: MacOS",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.scripts]
+cross-agent-memory = "agent_memory_hub.cli:main"
+agent-memory-hub = "agent_memory_hub.cli:main"
