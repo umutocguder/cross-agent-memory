@@ -2,6 +2,11 @@
 # Copyright (c) 2026 11Hopem. All rights reserved.
 # Licensed under 11Hopem Proprietary License.
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'src'))
+
+
 import unittest
 from pathlib import Path
 import tempfile
